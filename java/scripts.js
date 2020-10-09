@@ -1,30 +1,41 @@
 $(document).ready(function() {
    $("#design-icon").click(function(){
-     $("#design-icon").toggle();
-     $("#design-p").toggle();
+     $("#design-icon").fadeToggle();
+     $("#design-p").fadeToggle();
  });
 
   $("#design-p").click(function(){
-     $("design-p").toggle();
-     $("design-icon").toggle();
+     $("design-p").fadeToggle();
+     $("design-icon").fadeToggle();
  });
   $("#development-icon").click(function(){
-      $("#development-icon").toggle();
-      $("#development-p").toggle();
+      $("#development-icon").fadeToggle();
+      $("#development-p").fadeToggle();
   });
   $("#development-p").click(function(){
-    $("#development-p").toggle();
-    $("#development-icon").toggle();
-});
+    $("#development-p").fadeToggle();
+    $("#development-icon").fadeToggle();
+  });
   $("#management-icon").click(function(){
-      $("#management-icon").toggle();
-      $("#management-p").toggle();
+      $("#management-icon").fadeToggle();
+      $("#management-p").fadeToggle();
   });
   $("#management-p").click(function(){
-    $("#management-p").toggle();
-    $("#management-icon").toggle();
+    $("#management-p").fadeToggle();
+    $("#management-icon").fadeToggle();
 });
   
+});
+$(document).ready(function() {
+    $("#").click(function(){
+      $("#design-icon").fadeToggle();
+      $("#design-p").fadeToggle();
+  });
+  $("#management-p").click(function(){
+    $("#management-p").fadeToggle();
+    $("#management-icon").fadeToggle();
+});
+
 });
 
 // $(document).ready(function() {
