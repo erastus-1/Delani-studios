@@ -27,13 +27,29 @@ $(document).ready(function() {
   
 });
 $(document).ready(function() {
-    $("#").click(function(){
-      $("#design-icon").fadeToggle();
-      $("#design-p").fadeToggle();
+     $(".card-img1").mouseover(function(){
+     $("#pro").show();
   });
-  $("#management-p").click(function(){
-    $("#management-p").fadeToggle();
-    $("#management-icon").fadeToggle();
+     $(".card-img2").click(function(){
+     $("#pro").show();
+  });
+     $(".card-img3").click(function(){
+     $("#pro").show();
+  });
+     $(".card-img4").click(function(){
+     $("#pro").show();
+  });
+     $(".card-img5").click(function(){
+     $("#pro").show();
+  });
+     $(".card-img6").click(function(){
+     $("#pro").show();
+  });
+     $(".card-img7").click(function(){
+     $("#pro").show();
+  });
+     $(".card-img8").click(function(){
+     $("#pro").show();
 });
 
 });
