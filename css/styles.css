@@ -1,17 +1,41 @@
-.jumbotron {
-             background-image: url(../images/background/h_img.jpg);
-             display: cover;
+#delani {
+          margin-top: 1000px;
+          text-align: center;
+        }
+.logo {
+        margin-top: 150px;
+        margin-bottom: 20px;
+
 }
+.jumbotron-fluid {
+                   background-image: url(../images/background/h_img.jpg);
+                   display: cover;
+                   height: 600px;
+                   text-align: center;
+                   margin-bottom: 20px;
+                 }
+.mouse {
+         padding-top: 90px;
+         display: center;
+       }
 .service {
            background-image: url(../images/background/s_image.jpg);
            color: whitesmoke;
-           height: 100%;
+           height: 300px;
+           text-align: center;
+           margin-bottom: 50px;
+           margin-top: 50px;
+           text-align: center;
+         }
+.service-p {
+             margin-top: 90px;
+             text-align: center;
+             margin-bottom: 50px;
+           }
+#service {
+           text-align: center;
+           margin-top: 20px;
 }
-body {
-       text-align: center;
-       font-family: Arial, Helvetica, sans-serif;
-       background-color: whitesmoke;
-     }
 .about {
          text-align: center;
          color: black;
@@ -19,10 +43,69 @@ body {
 h1, h3 {
          font-style: italic;
          font-weight: bolder;
-         color: burlywood;
+         color: black;
+         text-align: center;
        }
-#management, #service, #design {
-                                 display: block;
-                                 margin-left: auto;
-                                 margin-right: auto;
-                               }
+.What-we-do {
+              padding-top: 10px;
+              display: center;
+              font-style: italic;
+              margin-bottom: 10px;
+            }
+#management-icon, #development-icon, #design-icon:hover{
+                                                         margin-left: 50px;
+                                                         margin-right: 0px;
+                                                         padding-left: 50px;
+                                                       }
+.management {
+              margin-left: 50px;
+              margin-right: 0px;
+              padding-left: 50px;
+            }
+#management-p, #development-p, #design-p {
+                                           display: block;
+                                           margin-left: 10px;
+                                           margin-right: 10px;
+                                           padding: 10px;
+                                           display: none;
+                                           margin-top: 20px;
+                                        }
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+                                                                       display: block;
+                                                                       margin: 10px;
+                                                                       margin-bottom: 10px;
+                                                                       padding: 10px;
+                                                                       position: absolute;
+                                                                     } 
+.portfolio {
+             padding-top: 20px;
+             text-align: center;
+           }
+h4 {
+     display: center;
+     font-weight: bolder;
+     font-style: italic;
+   }
+.image-fluid { 
+               background-color: transparent; 
+               padding: 10px;                    
+             }
+#pro {
+       display: none;
+     }
+.contact-us {
+              background-image: url(../images/background/c_image.jpg);
+              color: white;
+              height: 450px;
+              display: transparent;
+              margin-bottom: 20px;
+              margin-top: 20px;
+              text-align: center;
+            }
+.footer {
+          text-align: center;
+}
+#name, #comment, #email {
+                          background-color: transparent;
+                          color: white;
+}
