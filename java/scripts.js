@@ -1,6 +1,24 @@
-// $(document).ready(function() {
+$(document).ready(function() {
+   $("#design-icon").click(function(){
+     $("#design-icon").show();
+     $("#design-p").hide();
+ });
 
-// }
+  $("#design-icon").click(function(){
+     $("design-icon").show();
+     $("design-p").hide();
+ });
+  $("#development-icon").click(function(){
+      $("#development-icon").show();
+      $("#development-p").hide();
+  });
+  $("#management-icon").click(function(){
+      $("#management-icon").show();
+      $("#management-p").hide();
+  });
+
+  
+});
 
 $(document).ready(function() {
     $("#myform").submit(function(event) {
@@ -16,3 +34,4 @@ $(document).ready(function() {
       event.preventDefault();
     });
   });
+

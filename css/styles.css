@@ -71,14 +71,15 @@ h1, h3 {
                                            display: none;
                                            margin-top: 20px;
                                         }
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8:hover{
-                                                                       display: block;
-                                                                       margin: 10px;
-                                                                       margin-bottom: 10px;
-                                                                       padding: 10px;
-                                                                       position: absolute;
-                                                                       cursor: pointer;
-                                                                     } 
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+                                                                 display: none;
+                                                                 margin: 10px;
+                                                                 margin-bottom: 10px;
+                                                                 padding: 10px;
+                                                                 position: absolute;
+                                                                 cursor: pointer;
+                                                                 background-color: white;
+                                                               } 
 .portfolio {
              padding-top: 20px;
              text-align: center;
@@ -88,13 +89,15 @@ h4 {
      font-weight: bolder;
      font-style: italic;
    }
-.image-fluid { 
-               background-color: transparent; 
-               padding: 10px;                    
-             }
+.image-fluid:hover { 
+                     background-color: transparent; 
+                     padding: 10px;                    
+                   }
 #pro {
-       display: none;
-     }
+      text-align: center;
+      font-weight: bold;
+      display: none;
+    }
 .contact-us {
               background-image: url(../images/background/c_image.jpg);
               color: white;
@@ -110,4 +113,14 @@ h4 {
 #name, #comment, #email {
                           background-color: transparent;
                           color: white;
+}
+.feedback {
+            display: none;
+            color: black;
+            font-style: italic;
+            font-weight: bolder;
+}
+input {
+        color: blanchedalmond;
+        background: transparent;
 }
