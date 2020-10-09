@@ -52,11 +52,12 @@ h1, h3 {
               font-style: italic;
               margin-bottom: 10px;
             }
-#management-icon, #development-icon, #design-icon:hover{
-                                                         margin-left: 50px;
-                                                         margin-right: 0px;
-                                                         padding-left: 50px;
-                                                       }
+#management-icon, #development-icon, #design-icon{
+                                                   margin-left: 50px;
+                                                   margin-right: 0px;
+                                                   padding-left: 50px;
+                                                   cursor: pointer;
+                                                 }
 .management {
               margin-left: 50px;
               margin-right: 0px;
@@ -70,12 +71,13 @@ h1, h3 {
                                            display: none;
                                            margin-top: 20px;
                                         }
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8:hover{
                                                                        display: block;
                                                                        margin: 10px;
                                                                        margin-bottom: 10px;
                                                                        padding: 10px;
                                                                        position: absolute;
+                                                                       cursor: pointer;
                                                                      } 
 .portfolio {
              padding-top: 20px;
