@@ -30,27 +30,51 @@ $(document).ready(function() {
      $(".card-img1").mouseover(function(){
      $("#pro").show();
   });
-     $(".card-img2").click(function(){
+     $(".card-img1").mouseout(function(){
+     $("#pro").hide();
+ });
+     $(".card-img2").mouseover(function(){
      $("#pro").show();
   });
-     $(".card-img3").click(function(){
+     $(".card-img2").mouseout(function(){
+     $("#pro").hide();
+ });
+     $(".card-img3").mouseover(function(){
+     $("#pro").show();
+   });
+     $(".card-img3").mouseout(function(){
+     $("#pro").hide();
+   });
+     $(".card-img4").mouseover(function(){
+     $("#pro").show();
+   });
+     $(".card-img4").mouseout(function(){
+     $("#pro").hide();
+  });
+     $(".card-img5").mouseover(function(){
      $("#pro").show();
   });
-     $(".card-img4").click(function(){
+     $(".card-img5").mouseout(function(){
+     $("#pro").hide();
+  });
+     $(".card-img6").mouseover(function(){
      $("#pro").show();
   });
-     $(".card-img5").click(function(){
+     $(".card-img6").mouseout(function(){
+     $("#pro").hide();
+  });
+     $(".card-img7").mouseover(function(){
      $("#pro").show();
   });
-     $(".card-img6").click(function(){
+     $(".card-img7").mouseout(function(){
+     $("#pro").hide();
+  });
+     $(".card-img8").mouseover(function(){
      $("#pro").show();
   });
-     $(".card-img7").click(function(){
-     $("#pro").show();
+     $(".card-img8").mouseout(function(){
+     $("#pro").hide();
   });
-     $(".card-img8").click(function(){
-     $("#pro").show();
-});
 
 });
 
