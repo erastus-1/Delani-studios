@@ -1,28 +1,28 @@
 $(document).ready(function() {
    $("#design-icon").click(function(){
-     $("#design-icon").fadeToggle();
-     $("#design-p").fadeToggle();
+     $("#design-icon").fadeToggle(1000);
+     $("#design-p").fadeToggle(1000);
  });
 
   $("#design-p").click(function(){
-     $("design-p").fadeToggle();
-     $("design-icon").fadeToggle();
+     $("design-p").fadeToggle(1000);
+     $("design-icon").fadeToggle(1000);
  });
   $("#development-icon").click(function(){
-      $("#development-icon").fadeToggle();
-      $("#development-p").fadeToggle();
+      $("#development-icon").fadeToggle(1000);
+      $("#development-p").fadeToggle(1000);
   });
   $("#development-p").click(function(){
-    $("#development-p").fadeToggle();
-    $("#development-icon").fadeToggle();
+    $("#development-p").fadeToggle(1000);
+    $("#development-icon").fadeToggle(1000);
   });
   $("#management-icon").click(function(){
-      $("#management-icon").fadeToggle();
-      $("#management-p").fadeToggle();
+      $("#management-icon").fadeToggle(1000);
+      $("#management-p").fadeToggle(1000);
   });
   $("#management-p").click(function(){
-    $("#management-p").fadeToggle();
-    $("#management-icon").fadeToggle();
+    $("#management-p").fadeToggle(1000);
+    $("#management-icon").fadeToggle(1000);
 });
   
 });
@@ -31,65 +31,74 @@ $(document).ready(function() {
      $("#pro").show();
   });
      $(".card-img1").mouseout(function(){
-     $("#pro").hide();
+     $("#pro").show();
  });
      $(".card-img2").mouseover(function(){
-     $("#pro").show();
+     $("#project2").show();
   });
      $(".card-img2").mouseout(function(){
-     $("#pro").hide();
+     $("#project2").hide();
  });
      $(".card-img3").mouseover(function(){
-     $("#pro").show();
+     $("#project3").show();
    });
      $(".card-img3").mouseout(function(){
-     $("#pro").hide();
+     $("#pro3").hide();
    });
      $(".card-img4").mouseover(function(){
-     $("#pro").show();
+     $("#project4").show();
    });
      $(".card-img4").mouseout(function(){
-     $("#pro").hide();
+     $("#project5").hide();
   });
      $(".card-img5").mouseover(function(){
-     $("#pro").show();
+     $("#project5").show();
   });
      $(".card-img5").mouseout(function(){
-     $("#pro").hide();
+     $("#project5").hide();
   });
      $(".card-img6").mouseover(function(){
-     $("#pro").show();
+     $("#project6").show();
   });
      $(".card-img6").mouseout(function(){
-     $("#pro").hide();
+     $("#project6").hide();
   });
      $(".card-img7").mouseover(function(){
-     $("#pro").show();
+     $("#project7").show();
   });
      $(".card-img7").mouseout(function(){
-     $("#pro").hide();
+     $("#project7").hide();
   });
      $(".card-img8").mouseover(function(){
-     $("#pro").show();
+     $("#project8").show();
   });
      $(".card-img8").mouseout(function(){
-     $("#pro").hide();
+     $("#project").hide();
   });
 
 });
 
-// $(document).ready(function() {
-//     $("#myform").submit(function(event) {
-//       var myform = ["development-icon", "development-p", "management-icon", "management-p", "design-icon", "design-p"];
+$(document).ready(function() {
+    $("#myform").submit(function(event) {
+      var myform = ["name", "email", "comment"];
 
-//       myform.forEach(function(myform) {
-//         var userInput = $("input#" + myform).val();
-//         $("." + myform).text(userInput);
-//       });
+      var userName=document.getElementById("name").value
 
-//       $("#submit").show();
+      if(userName===undefined){
+         document.getElementById("show").innerText = ``  
+     } else {
+         document.getElementById("show").innerText = $(userName)
+     }
 
-//       event.preventDefault();
-//     });
-//   });
+     
+      myform.forEach(function(myform) {
+        var userInput = $("input#" + myform).val();
+        $("." + myform).text(userInput);
+      });
+
+      $("#submit").show();
+
+      event.preventDefault();
+    });
+  });
 

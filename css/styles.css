@@ -3,8 +3,8 @@
           text-align: center;
         }
 .logo {
-        margin-top: 150px;
-        margin-bottom: 20px;
+        margin-top: 130px;
+        margin-bottom: 50px;
 
 }
 .jumbotron-fluid {
@@ -28,9 +28,9 @@
            text-align: center;
          }
 .service-p {
-             margin-top: 90px;
+             margin-top: 20px;
              text-align: center;
-             margin-bottom: 50px;
+             margin-bottom: 30px;
            }
 #service {
            text-align: center;
@@ -72,19 +72,30 @@ h1, h3 {
                                            margin-top: 20px;
                                            text-align: center;
                                         }
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
-                                                                 display: none;
-                                                                 margin: 10px;
-                                                                 margin-bottom: 10px;
-                                                                 padding: 10px;
-                                                                 position: relative;
-                                                                 cursor: pointer;
-                                                                 background-color: white;
-                                                               } 
 .portfolio {
              padding-top: 20px;
+             padding-bottom: 20px;
              text-align: center;
            }
+.card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6, .card-img7, .card-img8 {
+                                                                                                 margin: 10px;
+                                                                                                 background-color: transparent;
+                                                                                               }                                                             
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
+                                                                                         margin: 10px;
+                                                                                         margin-bottom: 10px;
+                                                                                         padding: 10px;
+                                                                                         position: relative;
+                                                                                         cursor: pointer;
+                                                                                         color: black;
+                                                                                         display: none;
+                                                                                       } 
+#pro {
+       text-align: center;
+       font-weight: bold;
+       display: none;
+       background-color: transparent;
+             }
 h4 {
      display: center;
      font-weight: bolder;
@@ -92,13 +103,9 @@ h4 {
    }
 .image-fluid:hover { 
                      background-color: transparent; 
-                     padding: 10px;                    
+                     padding: 10px;
+                     margin-bottom: 10px;                    
                    }
-#pro {
-      text-align: center;
-      font-weight: bold;
-      display: none;
-    }
 .contact-us {
               background-image: url(../images/background/c_image.jpg);
               color: white;
@@ -110,6 +117,10 @@ h4 {
             }
 .footer {
           text-align: center;
+}
+.form-group {
+              background: transparent;
+              color: white;
 }
 #name, #comment, #email {
                           background-color: transparent;
