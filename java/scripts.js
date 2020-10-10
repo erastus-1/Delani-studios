@@ -82,6 +82,6 @@ function feedback(form) {
    var email = document.forms["feedback"]["email"].value;
    var message = document.forms["feedback"]["message"].value;
    alert(
-     " Your subscription to our list has been confirmed.Thank you for subscribing! "
+     " Your subscription has successfully been received thank you for your subscription! "
    );
    }

@@ -29,7 +29,7 @@
 .service-p {
              margin-top: 20px;
              text-align: center;
-             margin-bottom: 30px;
+             margin-bottom: 0px;
            }
 #service {
            text-align: center;
@@ -59,21 +59,22 @@ h1, h3 {
          text-align: center;
        }
 .What-we-do {
-              padding-top: 10px;
+              /* padding-top: 10px; */
               display: center;
               font-style: italic;
-              margin-bottom: 20px;
+              padding-bottom: 20px;
             }
 #management-icon, #development-icon, #design-icon{
-                                                   margin-left: 50px;
+                                                   margin-left: 100px;
                                                    margin-right: 0px;
                                                    padding-left: 50px;
                                                    cursor: pointer;
                                                  }
 .management {
-              margin-left: 50px;
+              margin-left: 80px;
               margin-right: 0px;
               padding-left: 50px;
+              display: center;
             }
 .col-space {
              margin-top: 20px;
@@ -120,7 +121,7 @@ h1, h3 {
      }
 h4 {
      display: center;
-     font-weight: bolder;
+     font-weight: lighter;
      font-style: italic;
    }
 .image-fluid:hover { 
