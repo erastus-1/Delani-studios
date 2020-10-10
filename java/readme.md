@@ -26,7 +26,7 @@ Requirements
 i) Git if you are using windows. ii) Download a code editor e.g Vs code, Atom e.t.c.
 
 Setup
-Open https://github.com/Susan-Kathoni/Delani-studio.git in your web browser.
+Open https://github.com/erastus-1/Delani-studio.git in your web browser.
 
 Copy the repository's url. -If you are using linux, go to the terminal and navigate the folder in which you would like to clone the repository. You shall then $ git clone (paste url). Press Enter. You can now work on the repository using your preferred code editor.
 
@@ -35,8 +35,9 @@ Copy the repository's url. -If you are using linux, go to the terminal and navig
 NOTE: Some components of this project might not work with some browsers such as Internet Explorer version 9 and earlier.
 
 LICENSE
+
 MIT
 
-Copyright (c) 2020 Susan Kathoni
+Copyright (c) 2020 Ruiru Erastus
 
-© Susan Kathoni
+© Ruiru Erastus.
