@@ -3,7 +3,7 @@
           text-align: center;
         }
 .logo {
-        margin-top: 130px;
+        margin-top: 100px;
         margin-bottom: 50px;
 
 }
@@ -35,6 +35,7 @@
 #service {
            text-align: center;
            margin-top: 20px;
+           font-weight: bold;
 }
 .about {
          text-align: center;
@@ -71,30 +72,32 @@ h1, h3 {
                                            display: none;
                                            margin-top: 20px;
                                            text-align: center;
+                                         }
+                                         .portfolio {
+                                          padding-top: 20px;
+                                          padding-bottom: 30px;
+                                          padding-left: 9%;
+                                          padding-right: 9%;
                                         }
-.portfolio {
-             padding-top: 20px;
-             padding-bottom: 20px;
-             text-align: center;
-           }
-.card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6, .card-img7, .card-img8 {
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
                                                                                                  margin: 10px;
                                                                                                  background-color: transparent;
                                                                                                }                                                             
 .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
-                                                                                         margin: 10px;
-                                                                                         margin-bottom: 10px;
-                                                                                         padding: 10px;
-                                                                                         position: relative;
-                                                                                         cursor: pointer;
-                                                                                         color: black;
-                                                                                         display: none;
+                                                                                        width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 0em;
+  display: none;
+  color: black;
+  font-size: 20px;
                                                                                        } 
 #pro {
-       text-align: center;
-       font-weight: bold;
-       display: none;
-       background-color: transparent;
+  margin-top: 30%;
+  text-align: center;
+  font-size: 25px;
              }
 h4 {
      display: center;
@@ -103,8 +106,8 @@ h4 {
    }
 .image-fluid:hover { 
                      background-color: transparent; 
-                     padding: 10px;
-                     margin-bottom: 10px;                    
+                     padding: 5px;
+                     margin-bottom: 5px;                    
                    }
 .contact-us {
               background-image: url(../images/background/c_image.jpg);
@@ -126,13 +129,25 @@ h4 {
                           background-color: transparent;
                           color: white;
 }
-.feedback {
-            display: none;
-            color: black;
-            font-style: italic;
-            font-weight: bolder;
-}
+.show {
+        display: none;
+        color: black;
+        font-style: italic;
+        font-weight: bolder;
+      }
 input {
         color: blanchedalmond;
         background: transparent;
 }
+.col-space {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+#head {
+        margin-top: 20px;
+        padding-top: 50px;
+      }

@@ -27,71 +27,70 @@ $(document).ready(function() {
   
 });
 $(document).ready(function() {
-     $(".card-img1").mouseover(function(){
-     $("#pro").show();
+     $(".img1").mouseover(function(){
+     $(".project1").show();
   });
-     $(".card-img1").mouseout(function(){
-     $("#pro").show();
- });
-     $(".card-img2").mouseover(function(){
-     $("#project2").show();
+     $(".img1").mouseout(function(){
+     $(".project1").hide();
   });
-     $(".card-img2").mouseout(function(){
-     $("#project2").hide();
- });
-     $(".card-img3").mouseover(function(){
-     $("#project3").show();
+     $(".img2").mouseover(function(){
+     $(".project2").show();
+  });
+     $(".img2").mouseout(function(){
+     $(".project2").hide();
+  });
+     $(".img3").mouseover(function(){
+     $(".project3").show();
    });
-     $(".card-img3").mouseout(function(){
-     $("#pro3").hide();
+     $(".img3").mouseout(function(){
+     $(".project3").hide();
    });
-     $(".card-img4").mouseover(function(){
-     $("#project4").show();
+     $(".img4").mouseover(function(){
+     $(".project4").show();
    });
-     $(".card-img4").mouseout(function(){
-     $("#project5").hide();
+     $(".img4").mouseout(function(){
+     $(".project4").hide();
   });
-     $(".card-img5").mouseover(function(){
-     $("#project5").show();
+     $(".img5").mouseover(function(){
+     $(".project5").show();
   });
-     $(".card-img5").mouseout(function(){
-     $("#project5").hide();
+     $(".img5").mouseout(function(){
+     $(".project5").hide();
   });
-     $(".card-img6").mouseover(function(){
-     $("#project6").show();
+     $(".img6").mouseover(function(){
+     $(".project6").show();
   });
-     $(".card-img6").mouseout(function(){
-     $("#project6").hide();
+     $(".img6").mouseout(function(){
+     $(".project6").hide();
   });
-     $(".card-img7").mouseover(function(){
-     $("#project7").show();
+     $(".img7").mouseover(function(){
+     $(".project7").show();
   });
-     $(".card-img7").mouseout(function(){
-     $("#project7").hide();
+     $(".img7").mouseout(function(){
+     $(".project7").hide();
   });
-     $(".card-img8").mouseover(function(){
-     $("#project8").show();
+     $(".img8").mouseover(function(){
+     $(".project8").show();
   });
-     $(".card-img8").mouseout(function(){
-     $("#project8").hide();
+     $(".img8").mouseout(function(){
+     $(".project8").hide();
   });
-
 });
 
 $(document).ready(function() {
     $("#myform").submit(function(event) {
-      var myform = ["name", "email", "comment"];
+      // var myform = ["name", "email", "comment"];
 
       var userName=document.getElementById("name").value
 
       if(userName===undefined){
-         document.getElementById("show").innerText = ``  
+         document.getElementById("submit").innerText = ``  
      } else {
-         document.getElementById("show").innerText = $(userName)
+         document.getElementById("submit").innerText = $(userName)
      }
-      $("#submit").show();
+      $(".submit").show();
 
       event.preventDefault();
     });
-  });
+});
 
