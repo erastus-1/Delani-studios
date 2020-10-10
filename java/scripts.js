@@ -73,7 +73,7 @@ $(document).ready(function() {
      $("#project8").show();
   });
      $(".card-img8").mouseout(function(){
-     $("#project").hide();
+     $("#project8").hide();
   });
 
 });
@@ -89,13 +89,6 @@ $(document).ready(function() {
      } else {
          document.getElementById("show").innerText = $(userName)
      }
-
-     
-      myform.forEach(function(myform) {
-        var userInput = $("input#" + myform).val();
-        $("." + myform).text(userInput);
-      });
-
       $("#submit").show();
 
       event.preventDefault();
