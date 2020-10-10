@@ -22,11 +22,18 @@ TECHNOLOGIES USED:
 
 DEPENDENCIES
 SETUP & INSTALLATION INSTRUCTIONS
-Requirements
-i) Git if you are using windows. ii) Download a code editor e.g Vs code, Atom e.t.c.
 
-Setup
-Open https://github.com/erastus-1/Delani-studio.git in your web browser.
+Requirements
+
+i) Git if you are using windows. 
+
+ii) Download a code editor e.g Vs code, Atom e.t.c.
+
+SETUP
+
+Open https://github.com/erastus-1/Delani-studios.
+
+git in your web browser.
 
 Copy the repository's url. -If you are using linux, go to the terminal and navigate the folder in which you would like to clone the repository. You shall then $ git clone (paste url). Press Enter. You can now work on the repository using your preferred code editor.
 
@@ -36,7 +43,11 @@ NOTE: Some components of this project might not work with some browsers such as 
 
 LICENSE
 
-MIT
+MIT:Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Copyright (c) 2020 Ruiru Erastus
 
