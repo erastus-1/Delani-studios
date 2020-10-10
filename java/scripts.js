@@ -79,10 +79,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $("#myform").submit(function(event) {
-      // var myform = ["name", "email", "comment"];
-
+      var myForm = ["name", "email", "comment"];
       var userName=document.getElementById("name").value
 
+      myform
       if(userName===undefined){
          document.getElementById("submit").innerText = ``  
      } else {
