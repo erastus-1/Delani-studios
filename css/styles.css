@@ -59,7 +59,7 @@ h1, h3 {
          text-align: center;
        }
 .What-we-do {
-              /* padding-top: 10px; */
+              padding-top: 10px;
               display: center;
               font-style: italic;
               padding-bottom: 20px;
@@ -129,13 +129,13 @@ h4 {
                      padding: 5px;
                      margin-bottom: 5px;                    
                    }
-.contact-us {
+/* .contact-us {
               background-image: url(../images/background/c_image.jpg);
               color: white;
               height: 450px;
               display: transparent;
-              /* margin-bottom: 20px;
-              margin-top: 20px; */
+              margin-bottom: 20px;
+              margin-top: 20px;
               text-align: center;
               padding-top: 20px;
             }
@@ -159,7 +159,7 @@ h4 {
 input {
         color: blanchedalmond;
         background: transparent;
-      }
+      }  */
 .mc_embed_signup {
                    background-image: url(../images/background/c_image.jpg);
                    color: white;
