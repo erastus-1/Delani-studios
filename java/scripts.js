@@ -77,20 +77,11 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
-    $("#myform").submit(function(event) {
-      var myForm = ["name", "email", "comment"];
-      var userName=document.getElementById("name").value
-
-      myform
-      if(userName===undefined){
-         document.getElementById("submit").innerText = ``  
-     } else {
-         document.getElementById("submit").innerText = $(userName)
-     }
-      $(".submit").show();
-
-      event.preventDefault();
-    });
-});
-
+function feedback(form) {
+   var name = document.forms["feedback"]["name"].value;
+   var email = document.forms["feedback"]["email"].value;
+   var message = document.forms["feedback"]["message"].value;
+   alert(
+     " Your subscription to our list has been confirmed.Thank you for subscribing! "
+   );
+   }
