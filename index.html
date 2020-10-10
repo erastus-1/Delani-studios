@@ -4,6 +4,7 @@
 <head>
   <title>Delani</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="css/bootstrap.css/css/bootstrap.css" type="text/css" rel="stylesheet">
   <link href="css/styles.css" type="text/css" rel="stylesheet">
   <script src="java/jquery/jquery-3.5.1.js"></script>
@@ -63,7 +64,7 @@
     <div class="portfolio">
       <h4>PORTFOLIO...</h4>
       <div class="row col-space">
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img1">
             <img src="images/portfolio/blank.jpg" alt="portfolio image" class="image-fluid">
             <div class="project1">
@@ -71,7 +72,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img2">
             <img src="images/portfolio/landscape.jpg" alt="portfolio image" class="image-fluid">
             <div class="project2">
@@ -79,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img3">
             <img src="images/portfolio/diamond.jpg" alt="portfolio image" class="image-fluid">
             <div class="project3">
@@ -87,7 +88,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img4">
             <img src="images/portfolio/logos.jpg" alt="portfolio image" class="image-fluid">
             <div class="project4">
@@ -97,7 +98,7 @@
         </div>
       </div>
       <div class="row col-space">
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img5">
             <img src="images/portfolio/restaurant.jpg" alt="portfolio image" class="image-fluid">
             <div class="project5">
@@ -105,7 +106,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img6">
             <img src="images/portfolio/security.jpg" alt="portfolio image" class="image-fluid">
             <div class="project6">
@@ -113,7 +114,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img7">
             <img src="images/portfolio/tabs.jpg" alt="portfolio image" class="image-fluid">
             <div class="project7">
@@ -121,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 pg-2">
+        <div class="col-md-3">
           <div class="card img8">
             <img src="images/portfolio/terminal.jpg" alt="portfolio image" class="image-fluid">
             <div class="project8">
@@ -139,12 +140,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 form-group">
-            <label for="name" input type="text" class="form-control" style=color:white; id="name" placeholder="name..."
-              required></label>
+            <label for="name"></label>           
+            <input type="text" class="form-control" style=color:white; id="name" placeholder="name..."
+              required>
           </div>
           <div class="col-md-6 form-group">
-            <label for="email" input type="text" class="form-control" id="email" placeholder="email..."
-              required></label>
+            <label for="email"></label>
+            <input type="text" class="form-control" id="email" placeholder="email..."
+             trequired>
             <small id="show-email" style=color:white; class="form-text text-muted">delani2020@gmail.com</small>
           </div>
         </div>
@@ -158,7 +161,8 @@
         </div>
         <div class="row">
           <div class="col-md-12 form-group">
-            <label input type="submit" name="show" id="sumbit" onclick="feedback()">send</label>
+            <label for="send"></label>
+            <input type="submit" name="show" id="sumbit" onclick="feedback()">
             <!-- <div id="sent" display="show"> -->
             <p class="submit">Your subscription has successfully been received thank you for your submition.</p>
           </div>
