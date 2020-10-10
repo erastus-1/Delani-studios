@@ -134,9 +134,10 @@ h4 {
               color: white;
               height: 450px;
               display: transparent;
-              margin-bottom: 20px;
-              margin-top: 20px;
+              /* margin-bottom: 20px;
+              margin-top: 20px; */
               text-align: center;
+              padding-top: 20px;
             }
 .footer {
           text-align: center;
@@ -158,4 +159,35 @@ h4 {
 input {
         color: blanchedalmond;
         background: transparent;
+      }
+.mc_embed_signup {
+                   background-image: url(../images/background/c_image.jpg);
+                   color: white;
+                   height: 450px;
+                   display: transparent;
+                   margin-bottom: 20px;
+                   margin-top: 20px;
+                   text-align: center;
+                   padding-top: 20px;
+                 }
+.footer {
+          text-align: center;
+        }
+.mc-field-group {
+                 background: transparent;
+                 color: white;
+                }
+#mce-FNAME, #mce-EMAIL, #mce-LNAME {
+                                     background-color: transparent;
+                                     color: white;
+                                   }
+.smc-embedded-subscribe {
+                         display: none;
+                         color: black;
+                         font-style: italic;
+                         font-weight: bolder;
+                        }
+input {
+       color: blanchedalmond;
+       background: transparent;
       }

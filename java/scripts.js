@@ -77,7 +77,7 @@ $(document).ready(function() {
   });
 });
 
-function feedback(form) {
+function feedback(myform) {
    var name = document.forms["feedback"]["name"].value;
    var email = document.forms["feedback"]["email"].value;
    var message = document.forms["feedback"]["message"].value;
