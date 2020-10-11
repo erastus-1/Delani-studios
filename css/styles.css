@@ -59,7 +59,7 @@ h1, h3 {
          text-align: center;
        }
 .What-we-do {
-              padding-top: 10px;
+              /* padding-top: 10px; */
               display: center;
               font-style: italic;
               padding-bottom: 20px;
@@ -129,34 +129,38 @@ h4 {
                      padding: 5px;
                      margin-bottom: 5px;                    
                    }
-#mc_embed_signup {
-                   background-image: url(../images/background/c_image.jpg);
-                   color: white;
-                   height: 450px;
-                   display: transparent;
-                   margin-bottom: 20px;
-                   margin-top: 20px;
-                   text-align: center;
-                   padding-top: 20px;
-                 }
+.contact-us {
+              background-image: url(../images/background/c_image.jpg);
+              color: white;
+              height: 450px;
+              display: transparent;
+              /* margin-bottom: 20px;
+              margin-top: 20px; */
+              text-align: center;
+              padding-top: 20px;
+            }
 .footer {
           text-align: center;
         }
-.mc-field-group {
-                 background: transparent;
-                 color: white;
-                }
-#mce-FNAME, #mce-EMAIL, #mce-LNAME {
-                                     background-color: transparent;
-                                     color: white;
-                                   }
-.smc-embedded-subscribe {
-                         display: none;
-                         color: black;
-                         font-style: italic;
-                         font-weight: bolder;
+.form-group {
+              background: transparent;
+              color: white;
+            }
+#name, #comment, #email {
+                          background-color: transparent;
+                          color: white;
                         }
-input {
-       color: blanchedalmond;
-       background: transparent;
+.submit {
+        display: none;
+        color: black;
+        font-style: italic;
+        font-weight: bolder;
       }
+input {
+        color: blanchedalmond;
+        background: transparent;
+      }
+.comment {
+           margin-left: 12%;
+           margin-right: 12%;
+}
