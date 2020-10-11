@@ -3,10 +3,9 @@ $(document).ready(function () {
       $("#design-icon").fadeToggle(1000);
       $("#design-p").fadeToggle(1000);
    });
-
    $("#design-p").click(function () {
-      $("design-p").fadeToggle(1000);
-      $("design-icon").fadeToggle(1000);
+      $("#design-p").fadeToggle(1000);
+      $("#design-icon").fadeToggle(1000);
    });
    $("#development-icon").click(function () {
       $("#development-icon").fadeToggle(1000);
