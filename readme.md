@@ -20,8 +20,8 @@ Written by Ruiru Erastus.
 
 -Markdown
 
-**DEPENDENCIES**
-SETUP & INSTALLATION INSTRUCTIONS
+**DEPENDENCIEs
+SETUP & INSTALLATION INSTRUCTIONS***
 
 **Requirements**
 
