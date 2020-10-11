@@ -129,38 +129,7 @@ h4 {
                      padding: 5px;
                      margin-bottom: 5px;                    
                    }
-/* .contact-us {
-              background-image: url(../images/background/c_image.jpg);
-              color: white;
-              height: 450px;
-              display: transparent;
-              margin-bottom: 20px;
-              margin-top: 20px;
-              text-align: center;
-              padding-top: 20px;
-            }
-.footer {
-          text-align: center;
-        }
-.form-group {
-              background: transparent;
-              color: white;
-            }
-#name, #comment, #email {
-                          background-color: transparent;
-                          color: white;
-                        }
-.submit {
-        display: none;
-        color: black;
-        font-style: italic;
-        font-weight: bolder;
-      }
-input {
-        color: blanchedalmond;
-        background: transparent;
-      }  */
-.mc_embed_signup {
+#mc_embed_signup {
                    background-image: url(../images/background/c_image.jpg);
                    color: white;
                    height: 450px;
